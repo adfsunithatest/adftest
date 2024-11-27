@@ -1,0 +1,9 @@
+{
+	"name": "ADFIFRSSALESFORCE",
+	"location": "canadaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9828d993-1b70-4856-9f29-8c5eceb68098",
+		"tenantId": "d32e3ba3-2454-4a1c-bdd6-2b88dbe9a0fd"
+	}
+}

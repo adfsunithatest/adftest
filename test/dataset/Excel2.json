@@ -1,0 +1,511 @@
+{
+	"name": "Excel2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage3",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "LockedInCurveXRef",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "IFRS_INPUT_ReferenceTable.xlsx",
+				"container": "cntforstorageaccount"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "LOCKEDIN_CURVE_ID",
+				"type": "String"
+			},
+			{
+				"name": "000M",
+				"type": "String"
+			},
+			{
+				"name": "003M",
+				"type": "String"
+			},
+			{
+				"name": "006M",
+				"type": "String"
+			},
+			{
+				"name": "009M",
+				"type": "String"
+			},
+			{
+				"name": "012M",
+				"type": "String"
+			},
+			{
+				"name": "015M",
+				"type": "String"
+			},
+			{
+				"name": "018M",
+				"type": "String"
+			},
+			{
+				"name": "021M",
+				"type": "String"
+			},
+			{
+				"name": "024M",
+				"type": "String"
+			},
+			{
+				"name": "027M",
+				"type": "String"
+			},
+			{
+				"name": "030M",
+				"type": "String"
+			},
+			{
+				"name": "033M",
+				"type": "String"
+			},
+			{
+				"name": "036M",
+				"type": "String"
+			},
+			{
+				"name": "039M",
+				"type": "String"
+			},
+			{
+				"name": "042M",
+				"type": "String"
+			},
+			{
+				"name": "045M",
+				"type": "String"
+			},
+			{
+				"name": "048M",
+				"type": "String"
+			},
+			{
+				"name": "051M",
+				"type": "String"
+			},
+			{
+				"name": "054M",
+				"type": "String"
+			},
+			{
+				"name": "057M",
+				"type": "String"
+			},
+			{
+				"name": "060M",
+				"type": "String"
+			},
+			{
+				"name": "063M",
+				"type": "String"
+			},
+			{
+				"name": "066M",
+				"type": "String"
+			},
+			{
+				"name": "069M",
+				"type": "String"
+			},
+			{
+				"name": "072M",
+				"type": "String"
+			},
+			{
+				"name": "075M",
+				"type": "String"
+			},
+			{
+				"name": "078M",
+				"type": "String"
+			},
+			{
+				"name": "081M",
+				"type": "String"
+			},
+			{
+				"name": "084M",
+				"type": "String"
+			},
+			{
+				"name": "087M",
+				"type": "String"
+			},
+			{
+				"name": "090M",
+				"type": "String"
+			},
+			{
+				"name": "093M",
+				"type": "String"
+			},
+			{
+				"name": "096M",
+				"type": "String"
+			},
+			{
+				"name": "099M",
+				"type": "String"
+			},
+			{
+				"name": "102M",
+				"type": "String"
+			},
+			{
+				"name": "105M",
+				"type": "String"
+			},
+			{
+				"name": "108M",
+				"type": "String"
+			},
+			{
+				"name": "111M",
+				"type": "String"
+			},
+			{
+				"name": "114M",
+				"type": "String"
+			},
+			{
+				"name": "117M",
+				"type": "String"
+			},
+			{
+				"name": "120M",
+				"type": "String"
+			},
+			{
+				"name": "123M",
+				"type": "String"
+			},
+			{
+				"name": "126M",
+				"type": "String"
+			},
+			{
+				"name": "129M",
+				"type": "String"
+			},
+			{
+				"name": "132M",
+				"type": "String"
+			},
+			{
+				"name": "135M",
+				"type": "String"
+			},
+			{
+				"name": "138M",
+				"type": "String"
+			},
+			{
+				"name": "141M",
+				"type": "String"
+			},
+			{
+				"name": "144M",
+				"type": "String"
+			},
+			{
+				"name": "147M",
+				"type": "String"
+			},
+			{
+				"name": "150M",
+				"type": "String"
+			},
+			{
+				"name": "153M",
+				"type": "String"
+			},
+			{
+				"name": "156M",
+				"type": "String"
+			},
+			{
+				"name": "159M",
+				"type": "String"
+			},
+			{
+				"name": "162M",
+				"type": "String"
+			},
+			{
+				"name": "165M",
+				"type": "String"
+			},
+			{
+				"name": "168M",
+				"type": "String"
+			},
+			{
+				"name": "171M",
+				"type": "String"
+			},
+			{
+				"name": "174M",
+				"type": "String"
+			},
+			{
+				"name": "177M",
+				"type": "String"
+			},
+			{
+				"name": "180M",
+				"type": "String"
+			},
+			{
+				"name": "183M",
+				"type": "String"
+			},
+			{
+				"name": "186M",
+				"type": "String"
+			},
+			{
+				"name": "189M",
+				"type": "String"
+			},
+			{
+				"name": "192M",
+				"type": "String"
+			},
+			{
+				"name": "195M",
+				"type": "String"
+			},
+			{
+				"name": "198M",
+				"type": "String"
+			},
+			{
+				"name": "201M",
+				"type": "String"
+			},
+			{
+				"name": "204M",
+				"type": "String"
+			},
+			{
+				"name": "207M",
+				"type": "String"
+			},
+			{
+				"name": "210M",
+				"type": "String"
+			},
+			{
+				"name": "213M",
+				"type": "String"
+			},
+			{
+				"name": "216M",
+				"type": "String"
+			},
+			{
+				"name": "219M",
+				"type": "String"
+			},
+			{
+				"name": "222M",
+				"type": "String"
+			},
+			{
+				"name": "225M",
+				"type": "String"
+			},
+			{
+				"name": "228M",
+				"type": "String"
+			},
+			{
+				"name": "231M",
+				"type": "String"
+			},
+			{
+				"name": "234M",
+				"type": "String"
+			},
+			{
+				"name": "237M",
+				"type": "String"
+			},
+			{
+				"name": "240M",
+				"type": "String"
+			},
+			{
+				"name": "243M",
+				"type": "String"
+			},
+			{
+				"name": "246M",
+				"type": "String"
+			},
+			{
+				"name": "249M",
+				"type": "String"
+			},
+			{
+				"name": "252M",
+				"type": "String"
+			},
+			{
+				"name": "255M",
+				"type": "String"
+			},
+			{
+				"name": "258M",
+				"type": "String"
+			},
+			{
+				"name": "261M",
+				"type": "String"
+			},
+			{
+				"name": "264M",
+				"type": "String"
+			},
+			{
+				"name": "267M",
+				"type": "String"
+			},
+			{
+				"name": "270M",
+				"type": "String"
+			},
+			{
+				"name": "273M",
+				"type": "String"
+			},
+			{
+				"name": "276M",
+				"type": "String"
+			},
+			{
+				"name": "279M",
+				"type": "String"
+			},
+			{
+				"name": "282M",
+				"type": "String"
+			},
+			{
+				"name": "285M",
+				"type": "String"
+			},
+			{
+				"name": "288M",
+				"type": "String"
+			},
+			{
+				"name": "291M",
+				"type": "String"
+			},
+			{
+				"name": "294M",
+				"type": "String"
+			},
+			{
+				"name": "297M",
+				"type": "String"
+			},
+			{
+				"name": "300M",
+				"type": "String"
+			},
+			{
+				"name": "303M",
+				"type": "String"
+			},
+			{
+				"name": "306M",
+				"type": "String"
+			},
+			{
+				"name": "309M",
+				"type": "String"
+			},
+			{
+				"name": "312M",
+				"type": "String"
+			},
+			{
+				"name": "315M",
+				"type": "String"
+			},
+			{
+				"name": "318M",
+				"type": "String"
+			},
+			{
+				"name": "321M",
+				"type": "String"
+			},
+			{
+				"name": "324M",
+				"type": "String"
+			},
+			{
+				"name": "327M",
+				"type": "String"
+			},
+			{
+				"name": "330M",
+				"type": "String"
+			},
+			{
+				"name": "333M",
+				"type": "String"
+			},
+			{
+				"name": "336M",
+				"type": "String"
+			},
+			{
+				"name": "339M",
+				"type": "String"
+			},
+			{
+				"name": "342M",
+				"type": "String"
+			},
+			{
+				"name": "345M",
+				"type": "String"
+			},
+			{
+				"name": "348M",
+				"type": "String"
+			},
+			{
+				"name": "351M",
+				"type": "String"
+			},
+			{
+				"name": "354M",
+				"type": "String"
+			},
+			{
+				"name": "357M",
+				"type": "String"
+			},
+			{
+				"name": "360M",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

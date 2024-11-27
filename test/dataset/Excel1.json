@@ -1,0 +1,55 @@
+{
+	"name": "Excel1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "CurveXRef",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "IFRS_INPUT_ReferenceTable.xlsx",
+				"container": "cntforstorageaccount"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "CURVE_ID",
+				"type": "String"
+			},
+			{
+				"name": "CURVE_ROLE_CD",
+				"type": "String"
+			},
+			{
+				"name": "CURRENCY_CD",
+				"type": "String"
+			},
+			{
+				"name": "CURVE_DESCRIPTION",
+				"type": "String"
+			},
+			{
+				"name": "MATURITY_LENGTH_OF_TIME",
+				"type": "String"
+			},
+			{
+				"name": "MATURITY_TIME_UOM_CD",
+				"type": "String"
+			},
+			{
+				"name": "RISK_FACTOR_ROLE_CD",
+				"type": "String"
+			},
+			{
+				"name": "RISK_FACTOR_CATEGORY_CD",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
